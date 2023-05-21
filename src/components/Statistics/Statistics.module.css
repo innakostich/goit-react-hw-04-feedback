@@ -1,0 +1,22 @@
+
+
+
+.statistics {
+    margin-bottom: 20px;
+  }
+  
+  .item {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .percentage {
+    font-weight: bold;
+    color: #196d69;
+  }
+  
