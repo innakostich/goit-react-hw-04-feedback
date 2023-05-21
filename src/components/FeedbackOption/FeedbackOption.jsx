@@ -37,7 +37,7 @@ import css from './FeedbackOption.module.css';
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <div>
-      {options.map(option => (
+      {options.map((option) => (
         <button
           type="button"
           onClick={() => onLeaveFeedback(option)}
@@ -57,3 +57,4 @@ FeedbackOptions.propTypes = {
 };
 
 export default FeedbackOptions;
+
